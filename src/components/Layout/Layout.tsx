@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dialog";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { ModeToggle } from "../mode-toggle";
-import nv2 from "@/assets/AgroLogo.png";
+import nv2 from "@/assets/logoNvPNG.png";
 import nv3 from "@/assets/LogoCrmPng.png";
 
 import {
@@ -256,7 +256,7 @@ export default function Layout2({ children }: LayoutProps) {
               <div className="flex items-center space-x-2">
                 <Link to={isCrmLocation ? "/crm" : "/"}>
                   <img
-                    className={`h-28 w-28
+                    className={`h-10 w-10
                     `}
                     src={isCrmLocation ? nv3 : nv2}
                     alt="Logo"

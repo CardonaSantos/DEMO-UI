@@ -7,7 +7,7 @@ import {
   Document,
   StyleSheet,
 } from "@react-pdf/renderer";
-import logo from "../../assets/AgroLogo.png";
+import logo from "../../assets/logoNvPNG.png";
 import { VentaHistorialPDF } from "@/Types/PDF/VentaHistorialPDF";
 import dayjs from "dayjs";
 import "dayjs/locale/es"; // Importa el idioma español
@@ -47,7 +47,7 @@ const Factura: React.FC<VentaProps> = ({ venta }) => {
 
     titleContainer: { flexDirection: "row", marginTop: 24 },
 
-    logo: { width: 110 },
+    logo: { width: 50 },
 
     reportTitle: { fontSize: 16, textAlign: "center" },
 
